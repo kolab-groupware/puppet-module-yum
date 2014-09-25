@@ -1,0 +1,32 @@
+[kolab-14-extras-audit]
+name = Enterprise Linux 6 Puppet Packages for Kolab Enterprise 14
+baseurl = https://mirror.kolabsys.com/redhat/kolab-14/el6/extras-audit/$basearch
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kolab-14-extras-audit
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert
+sslverify = True
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem
+
+[kolab-14-extras-audit-debuginfo]
+name = Enterprise Linux 6 Puppet Packages for Kolab Enterprise 14 - Debug
+baseurl = https://mirror.kolabsys.com/redhat/kolab-14/el6/extras-audit/$basearch/debug
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kolab-14-extras-audit
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert
+sslverify = True
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem
+
+[kolab-14-extras-audit-source]
+name = Enterprise Linux 6 Puppet Packages for Kolab Enterprise 14 - Sources
+baseurl = https://mirror.kolabsys.com/redhat/kolab-14/el6/extras-audit/SRPMS
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kolab-14-extras-audit
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert
+sslverify = True
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem
