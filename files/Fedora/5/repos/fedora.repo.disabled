@@ -1,0 +1,48 @@
+# Managed with puppet
+[fedora-5]
+name=Fedora 5
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/core/5/$basearch/os/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=core-5&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5
+
+[debuginfo]
+name=Fedora 5 - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/core/5/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=core-debug-5&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5
+
+[source]
+name=Fedora 5 - Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/core/5/source/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=core-source-5&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5
+
+[extras]
+name=Fedora 5 - Extras
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/extras/5/$basearch/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=extras-5&arch=$basearch
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5-fedora-extras
+gpgcheck=1
+
+[extras-debuginfo]
+name=Fedora 5 - Extras - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/extras/5/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=extras-debug-5&arch=$basearch
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5-fedora-extras
+gpgcheck=1
+
+[extras-source]
+name=Fedora 5 - Extras - Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/extras/5/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=extras-source-5&arch=$basearch
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-5-fedora-extras
+gpgcheck=1

@@ -1,0 +1,22 @@
+# Managed with puppet
+# ./distr/files/Fedora/11/etc/yum/repos.d/updates.repo
+[updates]
+name=Fedora - $basearch - Updates
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/11/$basearch/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-f11&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[updates-debuginfo]
+name=Fedora - $basearch - Updates - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/11/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-debug-f11&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[updates-source]
+name=Fedora - Updates Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/11/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-source-f11&arch=$basearch
+enabled=0
+gpgcheck=0

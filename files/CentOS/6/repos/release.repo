@@ -1,0 +1,8 @@
+[centos-6]
+name=CentOS Base
+#baseurl=http://www.kanarip.com/centos/6/os/$basearch/
+mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os
+enabled=1
+gpgcheck=1
+gpgkey=http://www.kanarip.com/centos/RPM-GPG-KEY-CentOS-6
+

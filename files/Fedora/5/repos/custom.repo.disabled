@@ -1,0 +1,5 @@
+[custom]
+name=Fedora - Custom Packages
+baseurl=http://www.kanarip.com/custom/fc5/$basearch
+enabled=0
+gpgcheck=0

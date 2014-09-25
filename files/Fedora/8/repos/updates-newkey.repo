@@ -1,0 +1,26 @@
+[updates-newkey]
+name=Fedora - $basearch - Updates Newkey
+failovermethod=priority
+#baseurl=http://download.fedora.redhat.com/pub/fedora/linux/updates/8/$basearch.newkey/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-f8.newkey&arch=$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-and-9
+
+[updates-newkey-debuginfo]
+name=Fedora - $basearch - Updates - Debug Newkey
+failovermethod=priority
+#baseurl=http://download.fedora.redhat.com/pub/fedora/linux/updates/8/$basearch.newkey/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-debug-f8.newkey&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-and-9
+
+[updates-newkey-source]
+name=Fedora - Updates Source Newkey
+failovermethod=priority
+#baseurl=http://download.fedora.redhat.com/pub/fedora/linux/updates/8/SRPMS.newkey/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-source-f8.newkey&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-and-9

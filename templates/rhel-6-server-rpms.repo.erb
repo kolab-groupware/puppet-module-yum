@@ -1,0 +1,26 @@
+[rhel-6-server-rpms]
+name = Red Hat Enterprise Linux 6 Server (RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/os
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = <%= rhsm_key_path %>
+sslclientcert = <%= rhsm_cert_path %>
+metadata_expire = 86400
+ui_repoid_vars = releasever basearch
+
+[rhel-6-server-rpms-debuginfo]
+name = Red Hat Enterprise Linux 6 Server (RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/debug
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = <%= rhsm_key_path %>
+sslclientcert = <%= rhsm_cert_path %>
+metadata_expire = 86400
+ui_repoid_vars = releasever basearch
+

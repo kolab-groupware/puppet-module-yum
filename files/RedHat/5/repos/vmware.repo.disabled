@@ -1,0 +1,13 @@
+[vmware]
+name=Enterprise Linux 5 - VMware Packages
+baseurl=http://packages.vmware.com/tools/esx/4.0u1/rhel5/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=http://packages.vmware.com/tools/VMWARE-PACKAGING-GPG-KEY.pub
+
+[vmware-source]
+name=Enterprise Linux 5 - Source VMware Packages
+baseurl=http://packages.vmware.com/tools/esx/4.0u1/rhel5/SRPMS/
+enabled=0
+gpgcheck=1
+gpgkey=http://packages.vmware.com/tools/VMWARE-PACKAGING-GPG-KEY.pub

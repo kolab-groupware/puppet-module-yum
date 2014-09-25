@@ -1,0 +1,24 @@
+# Managed with puppet
+[updates-testing]
+name=Fedora - $basearch - Test Updates
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/testing/8/$basearch/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-testing-f8&arch=$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-fedora-test
+
+[updates-testing-debuginfo]
+name=Fedora - $basearch - Test Updates Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/testing/8/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-testing-debug-f8&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-fedora-test
+
+[updates-testing-source]
+name=Fedora - Test Updates Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/core/updates/testing/8/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-testing-source-f8&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-fedora-test

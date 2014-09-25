@@ -1,0 +1,6 @@
+[kolab-obs-development]
+name=Kolab OBS Development Packages (Enterprise Linux 7)
+type=rpm-md
+baseurl=http://obs.kolabsys.com/repositories/Kolab:/Development/CentOS_7/
+enabled=1
+gpgcheck=0

@@ -1,0 +1,22 @@
+# Managed with puppet
+# ./distr/files/Fedora/17/etc/yum/repos.d/release.repo.disabled
+[fedora-17]
+name=Fedora - $basearch
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/17/Everything/$basearch/os/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-17&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[debuginfo]
+name=Fedora - $basearch - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/17/Everything/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=17&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[source]
+name=Fedora - Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/17/Everything/source/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=17&arch=$basearch
+enabled=0
+gpgcheck=0

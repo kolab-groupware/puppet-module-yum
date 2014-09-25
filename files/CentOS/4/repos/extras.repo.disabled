@@ -1,0 +1,9 @@
+#additional packages that may be useful
+[centos-4-extras]
+name=CentOS 4 - Extras
+baseurl=http://www.kanarip.com/centos/4/extras/$basearch/
+#mirrorlist=http://mirrorlist.centos.org/?release=4&arch=$basearch&repo=extras
+enabled=0
+gpgcheck=1
+gpgkey=http://www.kanarip.com/centos/RPM-GPG-KEY-CentOS-4
+

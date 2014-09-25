@@ -1,0 +1,23 @@
+[kolab-2.3-updates]
+name = Enterprise Linux 5 Kolab 2.3 Packages
+baseurl = http://mirror.kolabsys.com/pub/redhat/kolab-2.3/el5/updates/$basearch
+enabled = 0
+gpgcheck = 0
+gpgkey = http://mirror.kolabsys.com/tikanga.asc
+
+
+[kolab-2.3-updates-debuginfo]
+name = Enterprise Linux 5 Kolab 2.3 Packages - Debugging Symbols
+baseurl = http://mirror.kolabsys.com/pub/redhat/kolab-2.3/el5/updates/$basearch/debug
+enabled = 0
+gpgcheck = 0
+gpgkey = http://mirror.kolabsys.com/tikanga.asc
+
+
+[kolab-2.3-updates-source]
+name = Enterprise Linux 5 Kolab 2.3 Packages - Sources
+baseurl = http://mirror.kolabsys.com/pub/redhat/kolab-2.3/el5/updates/SRPMS
+enabled = 0
+gpgcheck = 0
+gpgkey = http://mirror.kolabsys.com/tikanga.asc
+

@@ -1,0 +1,39 @@
+# Managed with puppet
+[development-livna]
+name=Livna for Fedora - Base
+baseurl=http://www.kanarip.com/livna/development/$basearch/
+        http://rpm.livna.org/fedora/development/$basearch/
+        http://livna.cat.pdx.edu/fedora/development/$basearch/
+        http://wftp.tu-chemnitz.de/pub/linux/livna/fedora/development/$basearch/
+        http://ftp-stud.fht-esslingen.de/pub/Mirrors/rpm.livna.org/fedora/development/$basearch/
+        http://mirror.atrpms.net/livna/fedora/development/$basearch/
+        ftp://mirrors.tummy.com/pub/rpm.livna.org/fedora/development/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-livna
+
+[development-livna-debuginfo]
+name=Livna for Fedora - Debug
+baseurl=http://www.kanarip.com/livna/development/$basearch/debug/
+        http://rpm.livna.org/fedora/development/$basearch/debug/
+        http://livna.cat.pdx.edu/fedora/development/$basearch/debug/
+        http://wftp.tu-chemnitz.de/pub/linux/livna/fedora/development/$basearch/debug/
+        http://ftp-stud.fht-esslingen.de/pub/Mirrors/rpm.livna.org/fedora/development/$basearch/debug/
+        http://mirror.atrpms.net/livna/fedora/development/$basearch/debug/
+        ftp://mirrors.tummy.com/pub/rpm.livna.org/fedora/development/$basearch/debug/
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-livna
+gpgcheck=1
+
+[development-livna-source]
+name=Livna for Fedora - Source
+baseurl=http://www.kanarip.com/livna/development/SRPMS/
+        http://rpm.livna.org/fedora/development/SRPMS/
+        http://livna.cat.pdx.edu/fedora/development/SRPMS/
+        http://wftp.tu-chemnitz.de/pub/linux/livna/fedora/development/SRPMS/
+        http://ftp-stud.fht-esslingen.de/pub/Mirrors/rpm.livna.org/fedora/development/SRPMS/
+        http://mirror.atrpms.net/livna/fedora/development/SRPMS/
+        ftp://mirrors.tummy.com/pub/rpm.livna.org/fedora/development/SRPMS/
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-livna
+gpgcheck=1

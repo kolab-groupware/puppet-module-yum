@@ -1,0 +1,18 @@
+[custom-buildsys]
+name=Custom Packages for Build Systems
+baseurl=http://mirror.nl.ergo-project.org/repositories/custom-el5-buildsys/$basearch/
+enabled=0
+gpgcheck=0
+
+[custom-buildsys-debuginfo]
+name=Custom Packages for Build Systems - Debuginfo
+baseurl=http://mirror.nl.ergo-project.org/repositories/custom-el5-buildsys/$basearch/debug/
+enabled=0
+gpgcheck=0
+
+[custom-buildsys-source]
+name=Custom Packages for Build Systems - Sources
+baseurl=http://mirror.nl.ergo-project.org/repositories/custom-el5-buildsys/SRPMS/
+enabled=0
+gpgcheck=0
+

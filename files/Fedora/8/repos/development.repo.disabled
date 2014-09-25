@@ -1,0 +1,22 @@
+# Managed with puppet
+# ./distr/files/Fedora/8/etc/yum/repos.d/release.repo
+[development]
+name=Fedora - $basearch
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/development/$basearch/os/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=rawhide&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[development-debuginfo]
+name=Fedora - $basearch - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/development/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=rawhide-debug&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[development-source]
+name=Fedora - Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/development/source/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=rawhide-source&arch=$basearch
+enabled=0
+gpgcheck=0

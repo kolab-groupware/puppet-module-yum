@@ -1,0 +1,8 @@
+[kolab-3.3-updates]
+name = Updates for Kolab 3.3 (Enterprise Linux 7)
+baseurl = http://obs.kolabsys.com/repositories/Kolab:/3.3:/Updates/CentOS_7/
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kolab-3.3-updates
+enabled = 0
+skip_if_unavailable = True
+priority = 60

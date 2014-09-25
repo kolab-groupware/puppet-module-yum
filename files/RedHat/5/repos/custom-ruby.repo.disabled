@@ -1,0 +1,18 @@
+[custom-ruby]
+name=Custom Ruby Packages
+baseurl=http://mirror.nl.ergo-project.org/repositories/custom-el5-ruby/$basearch/
+enabled=0
+gpgcheck=0
+
+[custom-ruby-debuginfo]
+name=Custom Ruby Packages - Debuginfo
+baseurl=http://mirror.nl.ergo-project.org/repositories/custom-el5-ruby/$basearch/debug/
+enabled=0
+gpgcheck=0
+
+[custom-ruby-source]
+name=Custom Ruby Packages - Sources
+baseurl=http://mirror.nl.ergo-project.org/repositories/custom-el5-ruby/SRPMS/
+enabled=0
+gpgcheck=0
+

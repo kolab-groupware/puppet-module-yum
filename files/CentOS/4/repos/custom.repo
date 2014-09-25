@@ -1,0 +1,5 @@
+[centos-4-custom]
+name=CentOS 4 - Custom Packages
+baseurl=http://www.kanarip.com/custom/el4/$basearch
+enabled=1
+gpgcheck=0

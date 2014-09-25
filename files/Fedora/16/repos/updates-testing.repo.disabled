@@ -1,0 +1,22 @@
+# Managed with puppet
+# ./distr/files/Fedora/16/etc/yum/repos.d/updates-testing.repo.disabled
+[updates-testing]
+name=Fedora - $basearch - Test Updates
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/testing/16/$basearch/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-testing-f16&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[updates-testing-debuginfo]
+name=Fedora - $basearch - Test Updates Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/testing/16/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-testing-debug-f16&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[updates-testing-source]
+name=Fedora - Test Updates Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/core/updates/testing/16/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-testing-source-f16&arch=$basearch
+enabled=0
+gpgcheck=0

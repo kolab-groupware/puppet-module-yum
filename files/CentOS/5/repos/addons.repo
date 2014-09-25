@@ -1,0 +1,9 @@
+#packages used/produced in the build but not released
+[addons]
+name=CentOS Addons
+#baseurl=http://www.kanarip.com/centos/5/addons/$basearch/
+#mirrorlist=http://mirrorlist.centos.org/?release=5&arch=$basearch&repo=addons
+enabled=1
+gpgcheck=1
+gpgkey=http://www.kanarip.com/centos/RPM-GPG-KEY-CentOS-5
+

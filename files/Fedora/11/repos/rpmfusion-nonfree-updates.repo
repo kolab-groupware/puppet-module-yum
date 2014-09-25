@@ -1,0 +1,28 @@
+# Please note that the mirrorlists URLs are only temporary and will be changed soon.
+# The debuginfo and source repos will also be switching from baseurl to a
+# mirror list.
+
+[rpmfusion-nonfree-updates]
+name=RPM Fusion for Fedora - Non-Free - Updates
+baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/11/$basearch/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-released-11&arch=$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora
+
+[rpmfusion-nonfree-updates-debuginfo]
+name=RPM Fusion for Fedora - Non-Free - Updates Debug
+baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/11/$basearch/debug/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-updates-debug-11&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora
+
+[rpmfusion-nonfree-updates-source]
+name=RPM Fusion for Fedora - Non-Free - Updates Source
+baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/11/SRPMS/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-source-11&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora
+

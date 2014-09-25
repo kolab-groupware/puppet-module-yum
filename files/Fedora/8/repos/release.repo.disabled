@@ -1,0 +1,24 @@
+# Managed with puppet
+[fedora-8]
+name=Fedora - $basearch
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/8/Everything/$basearch/os/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-8&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8
+
+[debuginfo]
+name=Fedora - $basearch - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/8/Everything/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=8&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8
+
+[source]
+name=Fedora - Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/8/Everything/source/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=8&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8

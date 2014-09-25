@@ -1,0 +1,23 @@
+[updates-newkey]
+name=Fedora - $basearch - Updates Newkey
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/9/$basearch.newkey/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-f9.newkey&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-and-9-$basearch
+
+[updates-newkey-debuginfo]
+name=Fedora - $basearch - Updates - Debug Newkey
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/9/$basearch.newkey/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-debug-f9.newkey&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-and-9-$basearch
+
+[updates-newkey-source]
+name=Fedora - Updates Source Newkey
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/9/SRPMS.newkey/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-source-f9.newkey&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-and-9-$basearch

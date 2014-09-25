@@ -1,0 +1,34 @@
+# Managed with puppet
+# ./distr/files/Fedora/9/etc/yum/repos.d/livna-testing.repo
+[livna-testing]
+name=Livna for Fedora - Testing
+baseurl=http://rpm.livna.org/fedora/testing/9/$basearch/
+        http://livna.cat.pdx.edu/fedora/testing/9/$basearch/
+        http://wftp.tu-chemnitz.de/pub/linux/livna/fedora/testing/9/$basearch/
+        http://ftp-stud.fht-esslingen.de/pub/Mirrors/rpm.livna.org/fedora/testing/9/$basearch/
+        http://mirror.atrpms.net/livna/fedora/testing/9/$basearch/
+        ftp://mirrors.tummy.com/pub/rpm.livna.org/fedora/testing/9/$basearch/
+enabled=0
+gpgcheck=0
+
+[livna-testing-debug]
+name=Livna for Fedora - Testing - Debug
+baseurl=http://rpm.livna.org/fedora/testing/9/$basearch/debug/
+        http://livna.cat.pdx.edu/fedora/testing/9/$basearch/debug/
+        http://wftp.tu-chemnitz.de/pub/linux/livna/fedora/testing/9/$basearch/debug/
+        http://ftp-stud.fht-esslingen.de/pub/Mirrors/rpm.livna.org/fedora/testing/9/$basearch/debug/
+        http://mirror.atrpms.net/livna/fedora/testing/9/$basearch/debug/
+        ftp://mirrors.tummy.com/pub/rpm.livna.org/fedora/testing/9/$basearch/debug/
+enabled=0
+gpgcheck=0
+
+[livna-testing-source]
+name=Livna for Fedora - Testing - Source
+baseurl=http://rpm.livna.org/fedora/testing/9/SRPMS/
+        http://livna.cat.pdx.edu/fedora/testing/9/SRPMS/
+        http://wftp.tu-chemnitz.de/pub/linux/livna/fedora/testing/9/SRPMS/
+        http://ftp-stud.fht-esslingen.de/pub/Mirrors/rpm.livna.org/fedora/testing/9/SRPMS/
+        http://mirror.atrpms.net/livna/fedora/testing/9/SRPMS/
+        ftp://mirrors.tummy.com/pub/rpm.livna.org/fedora/testing/9/SRPMS/
+enabled=0
+gpgcheck=0

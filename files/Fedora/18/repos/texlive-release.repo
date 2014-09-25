@@ -1,0 +1,6 @@
+[texlive]
+name=TeX Live
+baseurl=http://jnovy.fedorapeople.org/texlive/packages.fc18/
+enabled=1
+metadata_expire=1d
+gpgcheck=0

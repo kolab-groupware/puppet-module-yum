@@ -1,0 +1,24 @@
+# Managed with puppet
+[fedora-7]
+name=Fedora - $basearch
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/7/Everything/$basearch/os/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-7&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7
+
+[debuginfo]
+name=Fedora - $basearch - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/7/Everything/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=7&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7
+
+[source]
+name=Fedora - Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/7/Everything/source/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=7&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7

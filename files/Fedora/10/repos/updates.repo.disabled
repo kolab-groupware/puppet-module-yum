@@ -1,0 +1,22 @@
+# Managed with puppet
+# ./distr/files/Fedora/10/etc/yum/repos.d/updates.repo.disabled
+[updates]
+name=Fedora - $basearch - Updates
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/10/$basearch/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-f10&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[updates-debuginfo]
+name=Fedora - $basearch - Updates - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/10/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-debug-f10&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[updates-source]
+name=Fedora - Updates Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/10/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-source-f10&arch=$basearch
+enabled=0
+gpgcheck=0

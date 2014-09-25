@@ -1,0 +1,8 @@
+[kolab-3.3-release]
+name = Kolab 3.3 (Enterprise Linux 7)
+baseurl = http://obs.kolabsys.com/repositories/Kolab:/3.3/CentOS_7/
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kolab-3.3-release
+enabled = 0
+skip_if_unavailable = True
+priority = 60

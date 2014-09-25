@@ -1,0 +1,5 @@
+[custom]
+name=Fedora - Custom Packages
+baseurl=http://www.kanarip.com/custom/f7/$basearch/
+enabled=1
+gpgcheck=0

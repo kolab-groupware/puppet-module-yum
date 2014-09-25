@@ -1,0 +1,25 @@
+# Managed with puppet
+
+[release]
+name = Fedora - $basearch
+baseurl = http://download.fedoraproject.org/pub/fedora/linux/releases/20/Everything/$basearch/os/
+mirrorlist = http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-20&arch=$basearch
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-release
+
+[release-debuginfo]
+name = Fedora - $basearch - Debug
+baseurl = http://download.fedoraproject.org/pub/fedora/linux/releases/20/Everything/$basearch/debug/
+mirrorlist = http://mirrors.fedoraproject.org/mirrorlist?repo=20&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-release
+
+[release-source]
+name = Fedora - Source
+baseurl = http://download.fedoraproject.org/pub/fedora/linux/releases/20/Everything/source/SRPMS/
+mirrorlist = http://mirrors.fedoraproject.org/mirrorlist?repo=20&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-release

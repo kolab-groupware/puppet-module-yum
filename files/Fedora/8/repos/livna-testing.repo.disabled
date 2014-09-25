@@ -1,0 +1,21 @@
+# Managed with puppet
+[livna-testing]
+name=Livna for Fedora - Testing
+baseurl=http://www.kanarip.com/livna/testing/8/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-livna
+
+[livna-testing-debug]
+name=Livna for Fedora - Testing - Debug
+baseurl=http://www.kanarip.com/livna/testing/8/$basearch/debug/
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-livna
+gpgcheck=1
+
+[livna-testing-source]
+name=Livna for Fedora - Testing - Source
+baseurl=http://www.kanarip.com/livna/testing/8/SRPMS/
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-8-livna
+gpgcheck=1

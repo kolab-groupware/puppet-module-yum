@@ -1,0 +1,19 @@
+# Managed with puppet
+# ./distr/files/Fedora/17/etc/yum/repos.d/livna.repo
+[livna]
+name=Livna for Fedora - Base
+baseurl=http://rpm.livna.org/repo/17/$basearch/
+enabled=1
+gpgcheck=0
+
+[livna-debuginfo]
+name=Livna for Fedora - Debug
+baseurl=http://rpm.livna.org/repo/17/$basearch/debug/
+enabled=0
+gpgcheck=0
+
+[livna-source]
+name=Livna for Fedora - Source
+baseurl=http://rpm.livna.org/repo/17/SRPMS/
+enabled=0
+gpgcheck=0

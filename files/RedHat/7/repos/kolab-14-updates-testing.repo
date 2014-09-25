@@ -1,0 +1,32 @@
+[kolab-14-updates-testing]
+name = Enterprise Linux 7 Kolab 14 Packages
+baseurl = https://mirror.kolabsys.com/redhat/kolab-14/el7/updates-testing/$basearch
+enabled = 1
+priority = 60
+gpgcheck = 1
+gpgkey = https://mirror.kolabsys.com/maipo.asc
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert 
+sslverify = True 
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem
+
+[kolab-14-updates-testing-debuginfo]
+name = Enterprise Linux 7 Kolab 14 Packages - Debugging Symbols
+baseurl = https://mirror.kolabsys.com/redhat/kolab-14/el7/updates-testing/$basearch/debug
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = https://mirror.kolabsys.com/maipo.asc
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert 
+sslverify = True 
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem
+
+[kolab-14-updates-testing-source]
+name = Enterprise Linux 7 Kolab 14 Packages - Sources
+baseurl = https://mirror.kolabsys.com/redhat/kolab-14/el7/updates-testing/SRPMS
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = https://mirror.kolabsys.com/maipo.asc
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert 
+sslverify = True 
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem

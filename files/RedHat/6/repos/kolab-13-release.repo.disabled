@@ -1,0 +1,32 @@
+[kolab-13]
+name = Enterprise Linux 6 Kolab 13 Packages
+baseurl = https://mirror.kolabsys.com/redhat/kolab-13/el6/release/$basearch
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = https://mirror.kolabsys.com/santiago.asc
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert 
+sslverify = True 
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem
+
+[kolab-13-debuginfo]
+name = Enterprise Linux 6 Kolab 13 Packages - Debugging Symbols
+baseurl = https://mirror.kolabsys.com/redhat/kolab-13/el6/release/$basearch/debug
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = https://mirror.kolabsys.com/santiago.asc
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert 
+sslverify = True 
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem
+
+[kolab-13-source]
+name = Enterprise Linux 6 Kolab 13 Packages - Sources
+baseurl = https://mirror.kolabsys.com/redhat/kolab-13/el6/release/SRPMS
+enabled = 0
+priority = 60
+gpgcheck = 1
+gpgkey = https://mirror.kolabsys.com/santiago.asc
+sslcacert = /etc/pki/tls/certs/mirror.kolabsys.com.ca.cert 
+sslverify = True 
+sslclientcert = /etc/pki/tls/private/mirror.kolabsys.com.client.pem

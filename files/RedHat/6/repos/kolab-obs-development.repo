@@ -1,0 +1,6 @@
+[kolab-obs-development]
+name=Kolab:Development (CentOS_6)
+type=rpm-md
+baseurl=http://obs.kolabsys.com/repositories/Kolab:/Development/CentOS_6/
+enabled=1
+gpgcheck=0

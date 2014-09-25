@@ -1,0 +1,22 @@
+# Managed with puppet
+# ./distr/files/Fedora/14/etc/yum/repos.d/release.repo.disabled
+[fedora-14]
+name=Fedora - $basearch
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/14/Everything/$basearch/os/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-14&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[debuginfo]
+name=Fedora - $basearch - Debug
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/14/Everything/$basearch/debug/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=14&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[source]
+name=Fedora - Source
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/14/Everything/source/SRPMS/
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=14&arch=$basearch
+enabled=0
+gpgcheck=0

@@ -1,0 +1,5 @@
+[centos-6-custom]
+name=CentOS 6 - Custom Packages
+baseurl=http://www.kanarip.com/custom/el6/$basearch
+enabled=0
+gpgcheck=0

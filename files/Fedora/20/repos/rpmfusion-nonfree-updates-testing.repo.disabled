@@ -1,0 +1,24 @@
+[rpmfusion-nonfree-updates-testing]
+name = RPM Fusion for Fedora - Non-Free - Test Updates
+baseurl = http://download1.rpmfusion.org/nonfree/fedora/updates/testing/20/$basearch/
+mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-testing-20&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-updates-testing
+
+[rpmfusion-nonfree-updates-testing-debuginfo]
+name = RPM Fusion for Fedora - Non-Free - Test Updates Debug
+baseurl = http://download1.rpmfusion.org/nonfree/fedora/updates/testing/20/$basearch/debug/
+mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-testing-debug-20&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-updates-testing
+
+[rpmfusion-nonfree-updates-testing-source]
+name = RPM Fusion for Fedora - Non-Free - Test Updates Source
+baseurl = http://download1.rpmfusion.org/nonfree/fedora/updates/testing/20/SRPMS/
+mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-testing-source-20&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-updates-testing
+
