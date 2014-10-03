@@ -1,6 +1,6 @@
 [rpmfusion-free]
 name=RPM Fusion for EL 6 - Free - Updates
-#baseurl=http://download1.rpmfusion.org/free/el/updates/6/$basearch/
+baseurl=http://download1.rpmfusion.org/free/el/updates/6/$basearch/
 mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-el-6&arch=$basearch
 enabled=1
 gpgcheck=1
@@ -8,7 +8,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-el
 
 [rpmfusion-free-debuginfo]
 name=RPM Fusion for EL 6 - Free - Updates Debug
-#baseurl=http://download1.rpmfusion.org/free/el/updates/6/$basearch/debug/
+baseurl=http://download1.rpmfusion.org/free/el/updates/6/$basearch/debug/
 mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-el-debug-6&arch=$basearch
 enabled=0
 gpgcheck=1
@@ -16,7 +16,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-el
 
 [rpmfusion-free-source]
 name=RPM Fusion for EL 6 - Free - Updates Source
-#baseurl=http://download1.rpmfusion.org/free/el/updates/6/SRPMS/
+baseurl=http://download1.rpmfusion.org/free/el/updates/6/SRPMS/
 mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-el-source-6&arch=$basearch
 enabled=0
 gpgcheck=1
