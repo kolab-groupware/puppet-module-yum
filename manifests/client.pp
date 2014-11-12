@@ -39,7 +39,7 @@ class yum::client inherits yum {
     file { "/etc/yum/yum.conf":
         owner => "root",
         group => "root",
-        mode  => 644,
+        mode => "644",
         source => [
             "puppet://$server/private/$environment/yum/yum.conf.$hostname",
             "puppet://$server/private/$environment/yum/yum.conf",
