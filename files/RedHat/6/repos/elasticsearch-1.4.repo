@@ -1,0 +1,6 @@
+[elasticsearch-1.4]
+name=Elasticsearch repository for 1.4.x packages
+baseurl=http://packages.elasticsearch.org/elasticsearch/1.4/centos
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elasticsearch-1.4
+enabled=1

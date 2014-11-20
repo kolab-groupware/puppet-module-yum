@@ -2,5 +2,5 @@
 name=Elasticsearch repository for 0.90.x packages
 baseurl=http://packages.elasticsearch.org/elasticsearch/0.90/centos
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elastic-search-0.90
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elasticsearch-0.90
 enabled=0
