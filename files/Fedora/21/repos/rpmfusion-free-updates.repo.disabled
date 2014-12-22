@@ -1,0 +1,24 @@
+[rpmfusion-free-updates]
+name = RPM Fusion for Fedora - Free - Updates
+baseurl = http://download1.rpmfusion.org/free/fedora/updates/21/$basearch/
+mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=free-released-21&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-updates
+
+[rpmfusion-free-updates-debuginfo]
+name = RPM Fusion for Fedora - Free - Updates Debug
+baseurl = http://download1.rpmfusion.org/free/fedora/updates/21/$basearch/debug/
+mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=free-released-debug-21&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-updates
+
+[rpmfusion-free-updates-source]
+name = RPM Fusion for Fedora - Free - Updates Source
+baseurl = http://download1.rpmfusion.org/free/fedora/updates/21/SRPMS/
+mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=free-released-source-21&arch=$basearch
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-updates
+

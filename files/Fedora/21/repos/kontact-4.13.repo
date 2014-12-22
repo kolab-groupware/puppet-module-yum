@@ -1,0 +1,27 @@
+# Managed with puppet
+[kontact-4.13]
+name = Kontact 4.13 for Fedora - $basearch
+baseurl = http://obs.kolabsys.com/repositories/Kontact:/4.13/Fedora_21/
+enabled = 1
+gpgcheck = 1
+priority = 60
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kontact-4.13
+skip_if_unavailable = True
+
+[kontact-4.13-debuginfo]
+name = Kontact 4.13 for Fedora - $basearch - Debug
+baseurl = http://obs.kolabsys.com/repositories/Kontact:/4.13/Fedora_21/
+enabled = 0
+gpgcheck = 1
+priority = 60
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kontact-4.13
+skip_if_unavailable = True
+
+[kontact-4.13-source]
+name = Kontact 4.13 for Fedora - $basearch - Source
+baseurl = http://obs.kolabsys.com/repositories/Kontact:/4.13/Fedora_21/
+enabled = 0
+gpgcheck = 1
+priority = 60
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kontact-4.13
+skip_if_unavailable = True

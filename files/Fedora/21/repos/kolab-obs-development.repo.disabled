@@ -1,0 +1,7 @@
+[kolab-obs-development]
+name = Kolab:Development (Fedora 21)
+baseurl = http://obs.kolabsys.com/repositories/Kolab:/Development/Fedora_21/
+enabled = 0
+priority = 59
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kolab-obs-development

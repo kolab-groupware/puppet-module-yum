@@ -1,0 +1,7 @@
+[opensuse-tools]
+name = openSUSE.org tools for Fedora 21
+baseurl = http://download.opensuse.org/repositories/openSUSE:/Tools/Fedora_21/
+enabled = 0
+skip_if_unavailable = True
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-opensuse-tools
