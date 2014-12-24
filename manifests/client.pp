@@ -14,8 +14,6 @@ class yum::client inherits yum {
     # We don't want to use it to make it clear we ship our own repos
     file { "/etc/yum.repos.d/":
         ensure => "/etc/yum/repos.d/",
-        purge => true,
-        recursive => true,
         force => true
     }
 
