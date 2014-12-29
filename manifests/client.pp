@@ -11,8 +11,12 @@ class yum::client inherits yum {
     }
 
     # This space is managed by RPM
-    # We don't want to use it to make it clear we ship our own repos
-    file { "/etc/yum.repos.d/":
+    # We don't want to use it to make it clear we ship our own repos.
+    #
+    # Some software (DNF) expects /etc/yum.repos.d to exist though.
+    #
+    # Note: No trailing slash
+    file { "/etc/yum.repos.d":
         ensure => "/etc/yum/repos.d/",
         force => true
     }
