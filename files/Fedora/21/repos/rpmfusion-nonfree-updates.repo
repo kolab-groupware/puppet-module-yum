@@ -1,7 +1,7 @@
 [rpmfusion-nonfree-updates]
 name = RPM Fusion for Fedora - Non-Free - Updates
 baseurl = http://download1.rpmfusion.org/nonfree/fedora/updates/21/$basearch/
-mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-released-21&arch=$basearch
+mirrorlist = http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-21&arch=$basearch
 enabled = 1
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-updates
