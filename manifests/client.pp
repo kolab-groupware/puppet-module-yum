@@ -24,6 +24,7 @@ class yum::client inherits yum {
                         ensure => "/etc/yum/repos.d/",
                         force => true
                     }
+                }
                 default: {
                     file { "/etc/yum.repos.d/":
                         ensure => absent,
