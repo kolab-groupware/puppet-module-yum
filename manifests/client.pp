@@ -16,9 +16,28 @@ class yum::client inherits yum {
     # Some software (DNF) expects /etc/yum.repos.d to exist though.
     #
     # Note: No trailing slash
-    file { "/etc/yum.repos.d":
-        ensure => "/etc/yum/repos.d/",
-        force => true
+    case $os {
+        "Fedora": {
+            case $osmajver {
+                "21": {
+                    file { "/etc/yum.repos.d":
+                        ensure => "/etc/yum/repos.d/",
+                        force => true
+                    }
+                default: {
+                    file { "/etc/yum.repos.d/":
+                        ensure => absent,
+                        force => true
+                    }
+                }
+            }
+        }
+        default: {
+            file { "/etc/yum.repos.d/":
+                ensure => absent,
+                force => true
+            }
+        }
     }
 
     file { "/etc/yum/":
