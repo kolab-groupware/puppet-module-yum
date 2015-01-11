@@ -1,0 +1,5 @@
+[skype]
+name = Skype Repository
+baseurl = http://download.skype.com/linux/repos/fedora/updates/i586/
+enabled = 0
+gpgcheck = 0
